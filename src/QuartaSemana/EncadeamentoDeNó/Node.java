@@ -1,24 +1,25 @@
 package QuartaSemana.EncadeamentoDeNó;
 
-public class Node {
+public class Node <T> {       //Nó tipo genérico "T"; Agora o node aceita qualquer conteúdo;
 
-   private String conteudo;
-   private Node nextNumber;
+   private T conteudo;
+   private Node<T> nextNumber;
 
-   public Node(String conteudo){
+   public Node(T conteudo){
       this.nextNumber = null;
       this.conteudo = conteudo;
    }
 
-   public String getConteudo() {
+   public T getConteudo() {
       return conteudo;
    }
 
    public void setConteudo(String conteudo) {
-      this.conteudo = conteudo;
+      this.conteudo = (T) conteudo;
    }
 
    public Node getNextNumber() {
+
       return nextNumber;
    }
 
