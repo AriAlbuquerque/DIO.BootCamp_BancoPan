@@ -1,7 +1,8 @@
 package QuartaSemana.Generics;
 
-public class MainResumo {
+public class MainGenerics {
     /**
+     * ********** GENERICS
      * Em generics utilizamos <T> para criar lista genérica ou seja de qualquer coisa, desde que haja um toString;
      *
      * **** WILDCARDS (Coringas)
