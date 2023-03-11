@@ -1,6 +1,6 @@
 package QuartaSemana.EstruturaDeDados.EncadeamentoDeNó;
 
-public class MainEstruturaDeDados {
+public class EstruturaDeDadosResumo {
 
     /**
      *********Estrutura de Dados*************
