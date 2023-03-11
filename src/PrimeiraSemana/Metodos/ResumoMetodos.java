@@ -1,6 +1,6 @@
 package PrimeiraSemana.Metodos;
 
-public class Main_Metodos {
+public class ResumoMetodos {
 
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package TerceiraSemana.EstruturasDeRepeticao.Arrays;
 
-public class Main {
+public class ResumoArrays {
 
         /**
          * Arrays são na verdade um vetor podendo ser unidimensionais [VETORES] ou multideminsionais[MATRIZES];

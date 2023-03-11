@@ -21,5 +21,5 @@ package PrimeiraSemana.Metodos;
  *
  *
  */
-public class Variaveis {
+public class ResumoVariaveis {
 }
