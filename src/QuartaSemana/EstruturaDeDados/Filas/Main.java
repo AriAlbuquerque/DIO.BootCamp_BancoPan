@@ -10,9 +10,6 @@ public class Main {
         minhaFila.enqueue(("fourth"));
         minhaFila.enqueue(("ARI"));
 
-
-
-
         System.out.println(minhaFila);
 
         System.out.println(minhaFila.dequeue());
