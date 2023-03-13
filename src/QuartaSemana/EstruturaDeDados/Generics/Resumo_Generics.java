@@ -1,6 +1,6 @@
 package QuartaSemana.EstruturaDeDados.Generics;
 
-public class MainGenerics {
+public class Resumo_Generics {
     /**
      * ********** GENERICS
      * Em generics utilizamos <T> para criar lista genérica ou seja de qualquer coisa, desde que haja um toString;
