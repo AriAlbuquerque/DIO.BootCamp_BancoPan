@@ -6,15 +6,10 @@ public class OperadoresEObjetos {
 
         public static void main(String[] args) {
 
+            String nomeUm = "Ariane";
+            String nomeDois = new String("Ariane");
 
-
-            //Para comparação entre OBJETOS utilizar equals ex:
-
-
-            String nomeUm = "Ariane";//variavel
-            String nomeDois = new String("Ariane");//objeto
-
-            System.out.println(nomeUm.equals(nomeDois));//Para comparação de objetos.
+            System.out.println(nomeUm.equals(nomeDois));
 
         }
     }

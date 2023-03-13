@@ -10,7 +10,7 @@ public class Consoantes {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
-            String[] consoantes = new String[6];//Criando vetor[] com seis posições para armazenar STRING;
+            String[] consoantes = new String[6];
             int quantidadeConsoantes = 0;
 
             int count = 0;
@@ -19,7 +19,7 @@ public class Consoantes {
                 String letra = scan.next();
 
                 if (!(letra.equalsIgnoreCase("a")) |
-                        letra.equalsIgnoreCase("e") |         //equals irá comparar a letra de entrada; IgnoreCase irá ignorar se a letra é maiúscula ou minúscula;
+                        letra.equalsIgnoreCase("e") |
                         letra.equalsIgnoreCase("i") |
                         letra.equalsIgnoreCase("o") |
                         letra.equalsIgnoreCase("u")){
@@ -28,10 +28,10 @@ public class Consoantes {
                 }
                 count++;
 
-            } while (count < consoantes.length);//Enquanto contador for menor que VETOR INEIRO(lenght) o laço se repetirá;
+            } while (count < consoantes.length);
             System.out.print("Consoantes: ");
-            for ( String consoante : consoantes ) {// Utilizando FOREACH; Para cada elemento do array consoantes imprima o elemento no caso consoante; estrutura FOR EACH;
-                if(consoante != null)//Se não for uma consoante não será impresso;
+            for ( String consoante : consoantes ) {
+                if(consoante != null)
                     System.out.print(consoante + " ");
 
             }

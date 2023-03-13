@@ -1,4 +1,4 @@
-package QuintaSemana.Equals_hashCode;
+package QuintaSemana.PrincipaisImplementações_EstruturasDeDados.Equals_hashCode;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -14,18 +14,13 @@ public class Tabuada {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
-
             System.out.println("Tabuada: ");
             int tabuada = scan.nextInt();
 
             System.out.println("Tabuada de: " + tabuada);
 
-            for(int i =1; i <= 10 ; i++ ){//int i significa que o contador iniciara do 1; i<= 10 significa que meu contadoe irá ate 10; i++ é o incremento do contador como o count no while;
+            for(int i =1; i <= 10 ; i++ ){
                 System.out.println(tabuada + "X" + i + " = " + (tabuada*i));
             }
-
-
         }
-
-
     }

@@ -12,21 +12,21 @@ public class NumerosAleatorios {
             Scanner scan = new Scanner(System.in);
             Random random = new Random();
 
-            int[] numerosAleatorios = new int[20];//Criando um Array de inteiros []; Contendo 20 posiçoes;
+            int[] numerosAleatorios = new int[20];
 
-            for (int i = 0; i < numerosAleatorios.length; i++) {//Para vator com inicio em 0(i=0); vetor int com 20 posiçoes;
-                int numero = random.nextInt(100); //declarando variável número = próximo numero aleatório(Randon), limite = 100;
-                numerosAleatorios[i] = numero;//Números aleatórios [VETOR] receberá número;
+            for (int i = 0; i < numerosAleatorios.length; i++) {
+                int numero = random.nextInt(100);
+                numerosAleatorios[i] = numero;
             }
 
             System.out.print("Numeros aleatórios: ");
-            for (int numero : numerosAleatorios) { //foreach ( Representa elemento : Array )
+            for (int numero : numerosAleatorios) {
                 System.out.print(numero + " ");
             }
 
             System.out.print("\nSucessores: ");
-            for (int numero : numerosAleatorios) { //foreach ( Representa elemento : Array )
-                System.out.print((numero+1) + " ");//numero mais 1 imprimirá o sucessor do numero aleatório
+            for (int numero : numerosAleatorios) {
+                System.out.print((numero+1) + " ");
             }
 
             System.out.print("\nAntecessores: ");

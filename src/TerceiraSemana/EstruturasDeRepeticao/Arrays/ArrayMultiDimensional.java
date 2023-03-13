@@ -10,21 +10,21 @@ public class ArrayMultiDimensional {
             Scanner scan = new Scanner(System.in);
             Random random = new Random();
 
-            int[][] M = new int[4][4]; //O primeiro [] representa uma linha, o segundo [] uma coluna;
+            int[][] M = new int[4][4];
 
-            for (int i = 0; i < M.length; i++) {//Linha i representa a linha da matriz;
-                for (int j = 0; j < M[i].length; j++) {//Linha j representa coluna da matriz;
+            for (int i = 0; i < M.length; i++) {
+                for (int j = 0; j < M[i].length; j++) {
                     M[i][j] = random.nextInt(9);
                 }
             }
 
             System.out.println("Matriz: ");
-            for (int[] linha : M){//Pegar cada elemento da linha;
-                for(int coluna : linha){//Para percorrer todos os elementos da matriz;
+            for (int[] linha : M){
+                for(int coluna : linha){
                     System.out.print(coluna + " ");
                 }
 
-                System.out.println();//Dá o espaço para mostar a matriz;
+                System.out.println();
 
             }
         }

@@ -11,18 +11,13 @@ public class Fatorial {
 
             System.out.println("Fatorial: ");
             int fatorial = scan.nextInt();
-
-            int multiplicacao = 1;//Multiplicação em fatorial não pode coomeçar com 0 se não os resultados serão 0;
+            int multiplicacao = 1;
 
             System.out.print(fatorial + "! = ");
-            for (int i = fatorial; i >= 1; i--) {//Em fatorial usamos i-- ou seja decomposição para diminuir o fator;
+            for (int i = fatorial; i >= 1; i--) {
                 multiplicacao = multiplicacao * i;
-
             }
-
             System.out.println(multiplicacao);
-
-
         }
     }
 

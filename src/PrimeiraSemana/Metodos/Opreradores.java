@@ -3,18 +3,7 @@ package PrimeiraSemana.Metodos;
 public class Opreradores {
     public static void main(String[] args) {
 
-    /*  ? e :  é a abreciação de if else para expressão booleana; Operadores2 ternários;;
-    exemplo:
 
-  int a, b;
-    a = 6;
-    b = 6;
-
-    String resultado = a==b ? "Verdadeiro" : "Falso";
-    System.out.println(resultado);
-*/
-
-//Condições
 
         boolean condicao1 = true;
         boolean condicao2  = true;

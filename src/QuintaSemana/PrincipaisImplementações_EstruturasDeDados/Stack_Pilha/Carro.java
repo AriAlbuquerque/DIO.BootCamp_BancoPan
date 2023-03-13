@@ -1,4 +1,4 @@
-package QuintaSemana.Equals_hashCode;
+package QuintaSemana.PrincipaisImplementações_EstruturasDeDados.Stack_Pilha;
 
 import java.util.Objects;
 
@@ -21,10 +21,17 @@ public class Carro {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true; //Testando se obj é igual o parametro se sim retorno true;
-        if (o == null || getClass() != o.getClass()) return false; //Retorna se obj é nullo ou obj e classes diferentes retur false;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Carro carro = (Carro) o; //Casting de obj
         return Objects.equals(marca, carro.marca); //Retorno levando em consideração atributo marca;
+    }
+
+    @Override
+    public String toString() {
+        return "Carro{" +
+                "marca='" + marca + '\'' +
+                '}';
     }
 
     @Override
