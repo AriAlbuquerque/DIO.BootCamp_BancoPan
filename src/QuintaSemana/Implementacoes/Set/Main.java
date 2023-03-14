@@ -4,7 +4,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        Set<Carro> hashSetCarros = new HashSet<>();
+        Set<Carro> hashSetCarros = new HashSet<>();   //Gera um conjunto aleatório de tipo específico, desordenado;
 
         hashSetCarros.add(new Carro("Ford"));
         hashSetCarros.add(new Carro("Chevrolet"));
@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println(hashSetCarros);
 
-        Set<Carro> treeSetCarros = new TreeSet<>();
+        Set<Carro> treeSetCarros = new TreeSet<>();     //Irá gerar um conjunto em forma de árvore;
 
         treeSetCarros.add(new Carro("Ford"));
         treeSetCarros.add(new Carro("Chevrolet"));
