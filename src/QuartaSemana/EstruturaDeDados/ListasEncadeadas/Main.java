@@ -3,9 +3,9 @@ package QuartaSemana.EstruturaDeDados.ListasEncadeadas;
 public class Main {
     public static void main(String[] args) {
 
-        ListaEncadeada<String> minhaListaEnacadeada = new ListaEncadeada<>();
+       ListaEncadeada minhaListaEnacadeada = new ListaEncadeada<String>();
 
-        minhaListaEnacadeada.add("Teste1");
+        minhaListaEnacadeada.add("Desafios_DIO.FabricaDeCarros");
         minhaListaEnacadeada.add("Teste2");
         minhaListaEnacadeada.add("Teste3");
         minhaListaEnacadeada.add("Teste4\n");
