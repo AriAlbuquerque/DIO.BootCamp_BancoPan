@@ -1,10 +1,10 @@
 package QuartaSemana.EstruturaDeDados.ListaDuplamenteEncadeada;
 
-public class NoDuplo<T> {    //Classe genérica de nó duplo;
+public class NoDuplo<T> {    //Carro genérica de nó duplo;
 
     private T conteudo;              //Método construtor do conteúdo do nó(node);
-    private NoDuplo<T> noProximo;   //Classe genérica para próximo nó(node);
-    private NoDuplo<T> noPrevio;     //Classe genérica para nó(node) anterior;
+    private NoDuplo<T> noProximo;   //Carro genérica para próximo nó(node);
+    private NoDuplo<T> noPrevio;     //Carro genérica para nó(node) anterior;
 
     public NoDuplo(T conteudo){         //Método construtor nó duplo;
         this.conteudo = conteudo;

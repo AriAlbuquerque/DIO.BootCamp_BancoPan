@@ -12,12 +12,12 @@ public class Resumo {
 *****************************************************************
 
 
-   * ************Classe Main************
+   * ************Carro Main************
 
 package QuintaSemana.Implementacoes.Stack_Pilha;
 import java.util.Stack;
 public class Main {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
 
         Stack<Carro> stackcarro = new Stack<>();
 
@@ -45,7 +45,7 @@ public class Main {
 
 
 *
-* **************Classe Carro********************
+* **************Carro Carro********************
 
 package QuintaSemana.Implementacoes.Stack_Pilha;
 import java.util.Objects;
@@ -64,7 +64,7 @@ public class Carro {
     @Override
     public boolean equals(Object o) {                           // Método equals;
         if (this == o) return true;                             // Testa se (Objeto o) que foi instanciado é igual a elemento de entrada;
-        if (o == null || getClass() != o.getClass()) return false;   //Testa se o Objeto é null OU se a Classe dos Objetos são diferentes se sim retorna false;
+        if (o == null || getClass() != o.getClass()) return false;   //Testa se o Objeto é null OU se a Carro dos Objetos são diferentes se sim retorna false;
         Carro carro = (Carro) o;                                 //Casting criando objeto carro temporario para testar usando atributo marca;;
         return marca.equals(carro.marca);                      //Retorno com equals;
     }

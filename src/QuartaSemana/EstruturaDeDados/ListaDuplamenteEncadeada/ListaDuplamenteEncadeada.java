@@ -63,7 +63,7 @@ public class ListaDuplamenteEncadeada<T> {
                primeiroNo.setNoPrevio(null);
            }
        }else {
-           NoDuplo<T> noAuxiliar = getNo(index);               //Classe nó auxiliar possibilita trabalhar nos encadeamento dos nós(Espaço reserva);
+           NoDuplo<T> noAuxiliar = getNo(index);               //Carro nó auxiliar possibilita trabalhar nos encadeamento dos nós(Espaço reserva);
            noAuxiliar.getNoPrevio().setNoProximo(noAuxiliar.getNoProximo());    //Retirando um nó. referenciando seu próximo;
 
            if (noAuxiliar != ultimoNo){                        //Se nó auxiliar != ultimo nó;

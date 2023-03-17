@@ -1,6 +1,6 @@
 package QuartaSemana.EstruturaDeDados.ListasCirculares;
 
-public class Node<T> {            //Classe com implementação do tipo generico;
+public class Node<T> {            //Carro com implementação do tipo generico;
 
     private T coteudo;     //Atributo tipo genérico;
 

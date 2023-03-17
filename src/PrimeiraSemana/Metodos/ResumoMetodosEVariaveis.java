@@ -28,12 +28,12 @@ public class ResumoMetodosEVariaveis {
 
 
          * Todas as acões das aplicações são consideradas métodos;
-         * Uma Classe é definida por atributos e método
+         * Uma Carro é definida por atributos e método
          * Atributos são quase sempre variáveis de diferentes tipos e valores;
          * Os métodos correspondem a FUNÇÕES ou SUB-ROTINAS;
          * Convenções são padrões seguidos na comunidade, boas práticas de programação;
          * Nomeação de um método: 1)Nomeado com verbo. 2)Padrão camelCase.EX: abrirConexão, findById. 3) Um método deve ter apenas uma responsabilidade.
-         * Em JAVA todo método deve ser definido dentro de uma Classe, não há métodos globais
+         * Em JAVA todo método deve ser definido dentro de uma Carro, não há métodos globais
          * Ao definir nomenclatura do método manter sempre em mente QUAL A PROPOSTA DO MÉTODO && QUAL RETORNO ESPERADO APÓS EXECUTADO!
          * Caso o método não retorne nenhum valor será representado por VOID(**Palavra chave**);
          * Definir quais PARÂMENTROS SÃO NECESSÁRIOS PARA EXECUTAR O MÉTODO;

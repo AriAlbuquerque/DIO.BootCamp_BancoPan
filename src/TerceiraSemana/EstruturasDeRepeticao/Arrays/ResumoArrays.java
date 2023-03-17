@@ -18,7 +18,7 @@ import java.util.Scanner;
 *******************************************************************
 public class ArrayMultiDimensional {
 
-            public static void main(String[] args) {
+            public static void Main(String[] args) {
                 Scanner scan = new Scanner(System.in);
                 Random random = new Random();
 
@@ -43,7 +43,7 @@ public class ArrayMultiDimensional {
 
 public class Consoantes {
 
-        public static void main(String[] args) {
+        public static void Main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             String[] consoantes = new String[6];                        //Criando vetor[] com seis posições para armazenar STRING;
@@ -81,7 +81,7 @@ public class Consoantes {
 
 public class NumerosAleatorios {
 
-        public static void main(String[] args) {
+        public static void Main(String[] args) {
             Scanner scan = new Scanner(System.in);
             Random random = new Random();
 
@@ -116,7 +116,7 @@ public class NumerosAleatorios {
 * public class Ordem_Inversa {
 
     public class Ex01_Ordem_Inversa {
-        public static void main(String[] args) {
+        public static void Main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
             int[] vetor = {-6, -5, 50, 8, 4, 15};//Criando um vetor unidimensional com 5  com posições iniciando na posição 0;
