@@ -1,4 +1,4 @@
-package ProgramacaoOrientadaObjeto.Carro;
+package ProgramacaoOrientadaObjeto.Veiculos;
 
 public class Main {
     public static void main(String[] args) {

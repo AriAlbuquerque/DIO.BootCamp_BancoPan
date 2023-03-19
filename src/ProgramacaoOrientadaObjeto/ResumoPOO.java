@@ -48,6 +48,7 @@ public class ResumoPOO {
     Uma Carro define o comportamento de seus Objetos através de métodos e os estados possíveis destes através de atributos;
     Ou seja uma CLASSE descreve os servoços providos por seus objetos e quais informações eles podem armazenar;
     Através da classe podemos modelar os dados fazendo abstração e criar objetos;
+
     Como Criar Classes-----> São SUBSTANTIVOS do mundo real; Nomes Significativos; Contexto deve ser considerado;
 
     *** ATRIBUTOS(Próprio peculiar a alguém ou alguma coisa): é o elemento de uma Classe responsãvel por DEFINIR sua ESTRUTURA DE DADOS;
@@ -55,12 +56,14 @@ public class ResumoPOO {
     Os atributos representam de forma mais fidedigna os conceitos do mundo real;
     Dentro do pc os atributos e variáveis serão reconhecidos da mesma maneira, porém com OO os atributos serão criadas dentro das Classes;
     Já as VARIÁVEIS(Sujeito a variações, inconstanjte, instavél) serão definidos dentro dos métodos;
+
     Usar: Substantivos e Adjetivos(Carro+Cor); Nomes Significativos; Contexto deve ser considerado; Abstração; Tipos adequados;
 
     *** MÉTODOS: porção de código(sub-rotina) que é disponibilizada pela classe;
     É exucutado quando chamado(requerido);
     Um método identifica quais serviços, ações que a classe oferece e realiza ddeterminado comportamento;
     Provém as ações através de manipulação de atributos ou variáveis;
+
     Usar: Verbos; Visibilidade; retorno; Nomes Significativos; Parâmentros se necessário; Contexto deve ser considerado;
 
     1-Método Construtor---> Constrói Objetos:  Obrigatório uso do mesmo nome da Classe no objeto;
@@ -78,31 +81,104 @@ public class ResumoPOO {
                                                 }
                                               }
 
-    *** OBJETO---> É o que executa faz tudo acontecer, deve estar em uma classe estática, é a representação de um conceito/entidade do mundo real, que pode ser física ou conceitual;
-    Possui significado bem definido para determinado software;
-    Para esse conceito/entiade(Objeto) deve ser inicialmente definida uma classe a partir de onde swerão instanciados objetos distintos;
-
-        EX:             Carro carro = new Carro();         //Constrói um objeto e atribui a essa variável;
-
     ***Sobrecarga---> Muda a assinatura de acordo com a necessidade: Assinatura: Nome + Parãmetros; EX: m1() --> m1(int i) --> m1(String s, long 1);
 
 
     *** Mensagem---> Solicitação para que um código seja executado; É um processo de aticação de um método de um objeto, ocorre quando chamamos esse método e disparamos a execução de seu comportamento descrito em sua classe;
     Pode também ser direcionada diretamente á classe, caso a requisição seja a um método estático;
           EX:            Carro carro = new Carro();
-                         carro.<método>;// chama o método via obj;
+                         carro.<método>;       // chama o método via obj;
                                      OU
-                         Carro.<método>;// chama obj via a classe;
+                         Carro.<método>;      // chama obj via a classe;
+
+     *** Herança---> É o relacionamento entre classes em que uma SUBCLASSE(Classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada SUPERCLASSE(Classe pai, Classe mãe classe base);
+     Assim a subclasse consegue reaproveitar os atributos e métodos dela;
+     Além de de métodos herdados a subclasse pode definir seus próprios membros(atributos e métodos);
+     A HERANÇA É PARA CRIAR SUBTIPOS ESPECIALIZADOS NÃO APENAS PARA REUSO DE CÓDIGO!!!
+          EX:           class A extends B { ... }       //A é um subtipo de B;
+
+          ** Tipos de HERANÇA:
+
+        * Herança SIMPLES a classe filha só tem uma mãe;
+
+        *Herança MÚLTIPLA a classe filha tem duas classes mães, porém não é utilizado em JAVA evitando o erro diamond;
+
+       *** UPCAST e DOWNCAST ***
+
+       * Upcast---> Subir o termo na sua hiérarquia de classe;
+            EX:   A a = new B();       //Transformando classe filha B em A classe mãe;
+
+       * Downcast---> Descer na hierarquia de classe; Não é útil dará erro exceto em caso de objeto;
+            EX:    B a = (B) new A();      //No downcast é preciso dizer qual classe filha será transformada em classe mãe;
+
+
+        ****** Polimorfismo ******
+        Permite utilização do mesmo método SEMPRE com comportamento diferente de acordo com o objeto em questão;
+        "A mesma ação se comporta diferente"
+         Polimorfismo é um dos conceitos mais imortantes ao se trabalhar com JAVA;
+
+        ******* Sobrescrita ********
+        É a utilização da mesma ação PODENDO se comportar diferente, dependendo da ação solicitada na classe;
+
+        ******* Associação *******
+        Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam;
+        Nesse tipo de relacionamento as classes e seus objetos interagem entre si para atingir seus objetivos;
+
+        -Tipos de Associação:
+
+        *Estrutural---> Manifesta se na estrutura das classes objetos(Composição, Agregação);
+
+        -Composição: ("Com Parte Todoo") só pode existir com o todoo;    EX:  class Pessoa{
+                                                                                Endereco endereco;
+                                                                                }
+
+
+        -Agregação: "Sem Parte todoo"  uma parte pode existir sem um todoo; EX:  class Disciplina {
+                                                                                Aluno aluno;
+                                                                                }
+
+        *Comportamental---> Associação entre métodos e atributos (Dependência);
+
+        -Dependência "Depende de" estea associação depende da entidade objeto;  EX:  class Compra{
+                                                                                finalizar(Cupom cupom, ....){
+                                                                                 }
+                                                                               }
+### Para definir como utilizar e quando utilizar HERANÇA e ASSOCIAÇÃO, sempre se perguntar se:
+   *** UMA COISA É A OUTRA?
+  Se a resposta for SIM utilizar HERANÇA;
+  Se a resposta for NÃO utilizar ASSOCIAÇÃO, pois irá se utilizar de algum método ou atributo;
+
+     ************ Interface **************
+
+     "Define um contrato que deve ser seguido pela classe que a implementa;
+     Quando uma classe implementa uma interface ela se comromete a realizar todos os comportamentos que a interface disponibiliza;"
+
+     Criando Interface:          interface A {...}
+                                 class B implements A{...}
+
+
+    ********** Pacotes ********
+   Organização física ou lógica criada para separar classes com responsabilidades distintas;
+   Mantém a aplicação organizada e possibilita separar classes de finalidades e representatividades diferentes;
+
+
+   ***********  *************
+
 
 //Pesquisar sobre:
-1-Instância X Estático: atributos e métodos--->
 
+1-Instância X Estático: atributos e métodos--->
 2-Estado de um Objeto--->
 3-Identidade de um Objeto--->
 4-Representação numérica de um Objeto--->
 5-Representação padrão de um objeto--->
+6-Classe Abstrata e Classe concreta--->
+7-Métodos Abstratos--->
+8-Características das Associações--->
+9-Palavras Coringas: super, base e super()--->
+10-Relações entre classes e interface: extends e implements--->
 
 
 
-    * */
+     */
 }
