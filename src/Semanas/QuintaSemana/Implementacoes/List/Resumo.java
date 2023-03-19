@@ -20,8 +20,8 @@ public class Resumo {
     *      .remove();  Remove elemento da lista;
     *
     *****************************************************
-    public class Main {
-    public static void Main(String[] args) {
+    public class SomaHcomNTermos {
+    public static void SomaHcomNTermos(String[] args) {
 
         List<Carro> listCarros = new ArrayList<>();
 

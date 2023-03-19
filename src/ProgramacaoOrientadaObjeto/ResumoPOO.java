@@ -162,10 +162,25 @@ public class ResumoPOO {
    Mantém a aplicação organizada e possibilita separar classes de finalidades e representatividades diferentes;
 
 
-   ***********  *************
+   ******** Visibilidade ********
+    Visibilidade ou Modificador de Acesso: tem como finalidade detrminar até que ponto uma classe, atributo ou método pode ser usado;
+    Sua utilização é fundamental para o uso efetivo de OO; algumas boas práticas e conceitos só serão atingidos com uso correto deles;
+
+    Tipos de Visibilidades:
+
+    -PRIVATE ---> A mais restritiva, seus atributos e métodos só serão visíveis dentro da sua classe;
+    -PROTECT ---> Seus métodos e atributos serão visíveis em suas classes, subclasses ou mesmo pacote;
+    -PUBLIC ---> Seus atributos e métodos serão visíveis em todos os locais da aplicação;
 
 
 //Pesquisar sobre:
+
+*Padrões de projeto:
+*Boas prátivas: SOLID, qualidade de código,
+*Refatoração de código:
+*UML linguagem dee modelagem:
+*Frameworks:
+
 
 1-Instância X Estático: atributos e métodos--->
 2-Estado de um Objeto--->

@@ -32,8 +32,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Main {
-    public static void Main(String[] args) {
+public class SomaHcomNTermos {
+    public static void SomaHcomNTermos(String[] args) {
 
         Queue<Carro> queueCarros = new LinkedList<>();           //Criação da classe Queue com auxílio do método LINKEDLIST;
 

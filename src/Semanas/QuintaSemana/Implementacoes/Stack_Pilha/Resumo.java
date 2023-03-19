@@ -12,12 +12,12 @@ public class Resumo {
 *****************************************************************
 
 
-   * ************Carro Main************
+   * ************Carro SomaHcomNTermos************
 
 package QuintaSemana.Implementacoes.Stack_Pilha;
 import java.util.Stack;
-public class Main {
-    public static void Main(String[] args) {
+public class SomaHcomNTermos {
+    public static void SomaHcomNTermos(String[] args) {
 
         Stack<Carro> stackcarro = new Stack<>();
 

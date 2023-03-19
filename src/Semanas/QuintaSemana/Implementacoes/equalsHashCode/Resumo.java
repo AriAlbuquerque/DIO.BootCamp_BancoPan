@@ -47,15 +47,15 @@ public class Carro {
 }
 ***********************************************************************************
 
-             ******* Carro Main *********
+             ******* Carro SomaHcomNTermos *********
 
 package QuintaSemana.Implementacoes.equalsHashCode;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Main {
+public class SomaHcomNTermos {
 
-    public static void Main(String[] args) {
+    public static void SomaHcomNTermos(String[] args) {
 
         List<Carro> listaCarros = new ArrayList<>(); //Criando novo objeto um ArrayList;
 

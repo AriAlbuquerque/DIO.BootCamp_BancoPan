@@ -5,7 +5,7 @@ public class Resumo_EstruturaRepeticao {
 
 public class Fatorial {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             System.out.println("Fatorial: ");
@@ -24,7 +24,7 @@ public class Fatorial {
 
 public class MaiorEMedia {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             int numero;
@@ -51,7 +51,7 @@ public class MaiorEMedia {
 
 public class Nome_Idade {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             String nome;
@@ -74,7 +74,7 @@ public class Nome_Idade {
 
 public class Notas {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
             int nota;
 
@@ -92,7 +92,7 @@ public class Notas {
 
 public class Par_Impar {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             int quantNumero;// Variável que define quantas vezes o usuário quer repetir o loop;
@@ -124,7 +124,7 @@ public class Par_Impar {
 
     public class Tabuada {
 
-        public static void Main(String[] args) {
+        public static void SomaHcomNTermos(String[] args) {
             Scanner scan = new Scanner(System.in);
 
             System.out.println("Tabuada: ");
