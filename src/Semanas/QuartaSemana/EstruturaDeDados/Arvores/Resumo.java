@@ -1,6 +1,5 @@
 package QuartaSemana.EstruturaDeDados.Arvores;
 
-import QuartaSemana.EstruturaDeDados.Arvores.ArvoreBinaria.BinNo;
 
 public class Resumo {
 

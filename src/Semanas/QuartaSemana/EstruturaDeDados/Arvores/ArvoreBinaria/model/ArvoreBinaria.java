@@ -1,8 +1,8 @@
-package QuartaSemana.EstruturaDeDados.Arvores.ArvoreBinaria;
+package Semanas.QuartaSemana.EstruturaDeDados.Arvores.ArvoreBinaria.model;
 
-public class ArvoreBinaria<T extends Comparable<T>> {
+//public class ArvoreBinaria<T extends Comparable<T>> {
 
-    private BinNo<T> raiz;
+  /*  private BinNo<T> raiz;
 
     public ArvoreBinaria() {
         this.raiz = null;
@@ -73,7 +73,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
                 System.out.print("Conteudo nao localizado!\nBloco Try.");
             }
             /*Condições*/
-            if (pai == null) {
+           /* if (pai == null) {
                 if (atual.getNoDir() == null) {
                     this.raiz = atual.getNoEsq();
 
@@ -130,4 +130,4 @@ public class ArvoreBinaria<T extends Comparable<T>> {
 }
 
 
-
+*/

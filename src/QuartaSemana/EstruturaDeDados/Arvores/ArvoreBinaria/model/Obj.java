@@ -2,7 +2,7 @@ package QuartaSemana.EstruturaDeDados.Arvores.ArvoreBinaria.model;
 
 import java.util.Objects;
 
-public class Obj extends ObjArvore <Obj> {
+public class Obj extends QuartaSemana.EstruturaDeDados.Arvores.ArvoreBinaria.model.ObjArvore<Obj> {
 
     Integer meuValor;
 
