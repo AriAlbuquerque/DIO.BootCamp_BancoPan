@@ -22,7 +22,7 @@ public class Suspeitos {
 
         System.out.println("Responda as perguntas com Sim(S) ou Não(N)");
 
-        System.out.println("\nTelefonou para a vítmia?");
+        System.out.println("\nVocê telefonou para a vítima??");
         String resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
 
@@ -30,7 +30,7 @@ public class Suspeitos {
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
 
-        System.out.println("\nMora perto da vítima?");
+        System.out.println("\nVocê mora próximo(a) a vítima?");
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
 
