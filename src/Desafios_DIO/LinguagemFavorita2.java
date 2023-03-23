@@ -1,6 +1,12 @@
 package Desafios_DIO;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Objects;
+import java.util.Set;
+import java.util.TreeSet;
 
 /*Na classe linguagem favorita crie os atributos:
 1-Nome;
