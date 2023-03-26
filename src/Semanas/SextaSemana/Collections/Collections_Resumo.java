@@ -17,6 +17,7 @@ public class Collections_Resumo {
          Uma Collection é composta por:
 
          * Interfaces---> É um contrato que quando assumido por uma classe deve ser implementado;
+
          * A maioria das coleções em Java derivam da interface java.util.Collection, que define métodos comuns entre todas elas com o objetivo de padronizar muitas das operações básicas suportadas em cada tipo de coleção;
 
          -Iterator<E> iterator(): retorna um Iterator para percorrer os elementos da coleção. Uma coleção pode ser percorrida por um Iterator usando o for melhorado;
@@ -94,10 +95,17 @@ public class Collections_Resumo {
 
  **************** Interface STREAM API ****************
 
+Traz uma opção nova para manipulação de Collections; Seguindo os princípios da programação funcional;
+       Combinada a expressões lambda oferece uma forma mais simples e consisa de escrever códigos com Conjuntos de elementos;
 
+      EX:  Source --> Pipeline --> Terminal;
+      * Source->
+      * Pipelin->
+      * Terminal->
 
         *Classe Anônima---> è uma classe em JAVA que não recebe nome e é declada e instaciada em uma única instrução;
        Sempre que precisar criar uma classe que será instanciada apenas uma vez; Ex: Interface Comparator Gato/Idade;
+
 
        * Functional Interface---> Qualquer Interface com um SAM(Single Abstract Method), interface funcional que pode ser tratada como expressões lambda;
              EX:      @FunctionalInterface
