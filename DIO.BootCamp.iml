@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="JUnit" level="project" />
+    <orderEntry type="library" name="junit.jupiter.engine" level="project" />
   </component>
-</module>
+  </module>
