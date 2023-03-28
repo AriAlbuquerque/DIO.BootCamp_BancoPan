@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for src" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="src-frontend" />
-        <module name="src-backend" />
+        <module name="junit5introducao" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="junit5-exemplos" target="11" />
+      <module name="src" target="1.8" />
+      <module name="src-backend" target="1.5" />
+      <module name="src-frontend" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
