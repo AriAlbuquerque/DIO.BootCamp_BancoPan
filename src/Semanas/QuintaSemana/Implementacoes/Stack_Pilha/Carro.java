@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Stack_Pilha;
+package Semanas.EqualsHashCode.Stack_Pilha;
 import java.util.Objects;
 public class Carro {
     public Carro(String marca) {

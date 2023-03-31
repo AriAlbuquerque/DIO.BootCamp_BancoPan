@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.equalsHashCode;
+package Semanas.EqualsHashCode.equalsHashCode;
 
 import java.util.Objects;
 

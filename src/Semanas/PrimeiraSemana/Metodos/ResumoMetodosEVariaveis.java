@@ -1,10 +1,8 @@
-package PrimeiraSemana.Metodos;
+package Semanas.PrimeiraSemana.Metodos;
 
 public class ResumoMetodosEVariaveis {
 
-
-    public static void main(String[] args) {
-       /*
+       /**
 
        Variáveis são espaços de memória alocados por um TIPO;
 
@@ -185,4 +183,4 @@ public class ResumoMetodosEVariaveis {
 */
 
     }
-}
+

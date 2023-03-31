@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Queue;
+package Semanas.EqualsHashCode.Queue;
 import java.util.Objects;
 public class Carro {
     public Carro(String marca) {

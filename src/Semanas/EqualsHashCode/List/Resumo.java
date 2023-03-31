@@ -1,8 +1,8 @@
-package QuintaSemana.Implementacoes.List;
+package Semanas.EqualsHashCode.List;
 
 public class Resumo {
 
-    /*
+    /**
     * **************List********************
     *
     * Cria um ArrayList

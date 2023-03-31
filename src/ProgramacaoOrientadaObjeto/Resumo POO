@@ -12,6 +12,15 @@ public class ResumoPOO {
     *ORIENTADA: Aquilo que é regido, segue uma orientação;
     *OBJETO: Um molde que representa uma determinada classe;
 
+
+    Linguagem de Programação---> É uma linguagem formal que por uma série de instruções, permite ao DEV escrever um conjunto de ordens, ações em dados e algoritmos para criar programas/ aplicações;
+
+
+    Paradigma de Linguagem de Programação---> Conjunto de características que podem ser usados para categorizar um determinado grupo de linguagens.
+
+    -> Paradigma Imperativo: Paradigma Estruturado, Paradigma Concorrente, Paradima Orientado a objeto;
+
+
     *** OBJETO---> É o que executa faz tudo acontecer, deve estar numa classe estática, é a representação de um conceito/entidade do mundo real, que pode ser física ou conceitual;
     Possui significado bem definido para determinado software;
     Para esse conceito/entiade(Objeto) deve ser inicialmente definida uma classe a partir de onde swerão instanciados objetos distintos;
@@ -82,13 +91,13 @@ public class ResumoPOO {
                                                }
     2-Método Destrutor---> Auxilia na destrução de um objeto, quando a IDE percebe que sua classe não é utilizada ele chama o coletor que criará os destrutores e cahma-os;
 
-                             EX:            class Carro{
-                                                void finalize(){
-                                                (Parâmetros)
-                                                }
-                                              }
+                             EX: class Carro{
+                                   void finalize(){
+                                    (Parâmetros)
+                                    }
+                                 }
 
-    ***Sobrecarga---> Muda a assinatura de acordo com a necessidade: Assinatura: Nome + Parãmetros; EX: m1() --> m1(int i) --> m1(String s, long 1);
+    ***Sobrecarga---> Muda a assinatura conforme a necessidade: Assinatura: Nome + Parãmetros; EX: m1() --> m1(int i) --> m1(String s, long 1);
 
 
     *** Mensagem---> Solicitação para que um código seja executado; É um processo de aticação de um método de um objeto, ocorre quando chamamos esse método e disparamos a execução de seu comportamento descrito em sua classe;
@@ -100,7 +109,7 @@ public class ResumoPOO {
 
      *** Herança---> É o relacionamento entre classes em que uma SUBCLASSE(Classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada SUPERCLASSE(Classe pai, Classe mãe classe base);
      Assim a subclasse consegue reaproveitar os atributos e métodos dela;
-     Além de de métodos herdados a subclasse pode definir seus próprios membros(atributos e métodos);
+     Além de métodos herdados a subclasse pode definir os seus próprios membros(atributos e métodos);
      A HERANÇA É PARA CRIAR SUBTIPOS ESPECIALIZADOS NÃO APENAS PARA REUSO DE CÓDIGO!!!
           EX:           class A extends B { ... }       //A é um subtipo de B;
 
@@ -120,7 +129,7 @@ public class ResumoPOO {
 
 
         ****** Polimorfismo ******
-        Permite utilização do mesmo método SEMPRE com comportamento diferente de acordo com o objeto em questão;
+        Permite utilização do mesmo método SEMPRE com comportamento diferente conforme o objeto em questão;
         "A mesma ação se comporta diferente"
          Polimorfismo é um dos conceitos mais imortantes ao se trabalhar com JAVA;
 
@@ -128,16 +137,17 @@ public class ResumoPOO {
         É a utilização da mesma ação PODENDO se comportar diferente, dependendo da ação solicitada na classe;
 
         ******* Associação *******
-        Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam;
-        Nesse tipo de relacionamento as classes e seus objetos interagem entre si para atingir seus objetivos;
+        Possibilita um relacionamento entre classes/objetos, onde estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao, qual se destinam;
+        Nesse "tipo" de relacionamento as classes e os seus objetos interagem entre si para atingir os seus objetivos;
 
-        -Tipos de Associação:
+        — Tipos de Associação:
 
         *Estrutural---> Manifesta se na estrutura das classes objetos(Composição, Agregação);
 
-        -Composição: ("Com Parte Todoo") só pode existir com o todoo;    EX:  class Pessoa{
-                                                                                Endereco endereco;
-                                                                                }
+        -Composição: ("Com Parte Todo") só pode existir com o todo:
+                                  EX:  class Pessoa{
+                                   Endereco endereco;
+                               }
 
 
         -Agregação: "Sem Parte todoo"  uma parte pode existir sem um todoo; EX:  class Disciplina {
@@ -185,7 +195,7 @@ public class ResumoPOO {
 *Padrões de projeto:
 *Boas prátivas: SOLID, qualidade de código,
 *Refatoração de código:
-*UML linguagem dee modelagem:
+*UML linguagem de modelagem:
 *Frameworks:
 
 

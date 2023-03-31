@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Mensagem;
+package Semanas.EqualsHashCode.Metodos_Java.Mensagem;
 
 public class Main {
 

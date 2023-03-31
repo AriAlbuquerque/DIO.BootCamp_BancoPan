@@ -1,9 +1,9 @@
-package QuartaSemana.EstruturaDeDados.Arvores;
+package Semanas.QuartaSemana.EstruturaDeDados.Arvores;
 
 
 public class Resumo {
 
-    /*
+    /**
      * ************ Árvores *************
      *
      * Árvores são estruturas de dados BIDIMENSIONAIS;
@@ -28,7 +28,7 @@ public class Resumo {
 
      * 8-Nó interno:
 
-     * 9-Grau de um nó: Definido pelo número de seus filhos;
+     * 9-Grau de um nó: Definido pelo número dos seus filhos;
 
      *10-Subárvores: Formada a partir de um nó da árvore principal, sendo considerada um ramo;
 

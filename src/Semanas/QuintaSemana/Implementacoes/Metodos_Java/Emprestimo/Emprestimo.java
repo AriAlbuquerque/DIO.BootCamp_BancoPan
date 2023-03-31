@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Emprestimo;
+package Semanas.EqualsHashCode.Metodos_Java.Emprestimo;
 /*Calcular valor final de um empréstimo a partir do valor solicitado.(Taxas e parcelas influênciam,
  Defina as faixas que influênciam nos valores)*/
 public class Emprestimo {

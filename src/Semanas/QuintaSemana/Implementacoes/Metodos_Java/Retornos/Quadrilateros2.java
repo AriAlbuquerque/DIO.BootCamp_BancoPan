@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Retornos;
+package Semanas.EqualsHashCode.Metodos_Java.Retornos;
 /*Crie uma aplicação que calcule a área dos quadriláteros notáveis
  * Faça com que os métodos retornem valores; */
 public class Quadrilateros2 {

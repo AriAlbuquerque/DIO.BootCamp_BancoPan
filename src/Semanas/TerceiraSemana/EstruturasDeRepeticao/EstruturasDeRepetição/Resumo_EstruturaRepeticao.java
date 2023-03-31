@@ -1,7 +1,7 @@
-package TerceiraSemana.EstruturasDeRepeticao.EstruturasDeRepetição;
+package Semanas.TerceiraSemana.EstruturasDeRepeticao.EstruturasDeRepetição;
 
 public class Resumo_EstruturaRepeticao {
-    /*
+    /**
 
 public class Fatorial {
 

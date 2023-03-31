@@ -1,4 +1,4 @@
-package QuartaSemana.EstruturaDeDados.Filas;
+package Semanas.QuartaSemana.EstruturaDeDados.Filas;
 
 public class Resumo {
     /**

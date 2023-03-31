@@ -1,5 +1,5 @@
 applications:
-- name: src
+- name: DIO BootCamp
   path: src-backend/target/src-backend-1.0-SNAPSHOT.jar
   memory: 256m
   env:

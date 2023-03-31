@@ -1,6 +1,5 @@
-package QuintaSemana.Implementacoes.Map;
+package Semanas.QuintaSemana.Implementacoes.Map;
 
-import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
 

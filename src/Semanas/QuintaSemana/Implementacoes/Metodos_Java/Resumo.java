@@ -1,7 +1,9 @@
-package QuintaSemana.Implementacoes.Metodos_Java;
+package Semanas.QuintaSemana.Implementacoes.Metodos_Java;
 
 public class Resumo {
-    /*Métodos são porções de código (sub-rotina) que são disponibilizados por uma classe;
+    /**
+
+     * Métodos são porções de código (sub-rotina) disponibilizados por uma classe;
 
 
    ***** O método sempre deverá estar dentro de uma CLASSE;
@@ -25,7 +27,7 @@ public class Resumo {
 *Passagem -> de Parãmetros: Por valor(cópia) ou Referência(endereço);
 
 *******Boas Práticas na criação de um método:
-1-Nome descritivo porém curtos; usar verbos e substantivos;
+1-Nome descritivo, porém curtos; usar verbos e substantivos;
 2-Padrão camelCase; e
 3-Deve possuir entre 80 e 120 linhas;
 4-Evite lista de parâmetros longas;
@@ -42,13 +44,13 @@ public class Resumo {
 
         * Sobre Carga:
         É a capacidade de definir métodos para diferentes contextos;
-        Preservando seu nome alterando apenas sua lista de parâmetros;
+        Preservando o seu nome alterando apenas a sua lista de parâmetros;
 
 
 
         * Quadrilateros2:
         São instruções de interrupção(return) assim como break e continue;
-        O retorno so será após a execução de  método;
+        O retorno so será após a execução de método;
         Pode retornar um tipo primitivo, objeto ou exceçção;
         O return deve devolver o mesmo tipo do método;
 

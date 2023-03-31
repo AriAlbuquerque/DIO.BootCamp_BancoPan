@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Set;
+package Semanas.EqualsHashCode.Set;
 import java.util.*;
 
 public class Main {

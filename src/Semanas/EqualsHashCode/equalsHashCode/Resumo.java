@@ -1,14 +1,14 @@
-package QuintaSemana.Implementacoes.equalsHashCode;
+package Semanas.EqualsHashCode.equalsHashCode;
 
 public class Resumo {
 
-    /*
+    /**
 
 
     * Comando equals() realiza comparações de igualdade entre Objetos:
 
     @Override
-    public boolean equals(Object o) {
+    //public boolean equals(Object o) {
      }
 
     *Comando hashCode() percorre a lista e retorna a informação:
@@ -49,7 +49,7 @@ public class Carro {
 
              ******* Carro SomaHcomNTermos *********
 
-package QuintaSemana.Implementacoes.equalsHashCode;
+package Semanas.Implementacoes.equalsHashCode;
 import java.util.List;
 import java.util.ArrayList;
 

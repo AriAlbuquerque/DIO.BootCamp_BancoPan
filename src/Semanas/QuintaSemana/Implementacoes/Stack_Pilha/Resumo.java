@@ -1,8 +1,8 @@
-package QuintaSemana.Implementacoes.Stack_Pilha;
+package Semanas.QuintaSemana.Implementacoes.Stack_Pilha;
 
 public class Resumo {
 
-    /*
+    /**
     *     ****** Método Stack ******
 
 
@@ -14,7 +14,7 @@ public class Resumo {
 
    * ************Carro SomaHcomNTermos************
 
-package QuintaSemana.Implementacoes.Stack_Pilha;
+package Semanas.Implementacoes.Stack_Pilha;
 import java.util.Stack;
 public class SomaHcomNTermos {
     public static void SomaHcomNTermos(String[] args) {
@@ -47,7 +47,7 @@ public class SomaHcomNTermos {
 *
 * **************Carro Carro********************
 
-package QuintaSemana.Implementacoes.Stack_Pilha;
+package Semanas.Implementacoes.Stack_Pilha;
 import java.util.Objects;
 public class Carro {
 

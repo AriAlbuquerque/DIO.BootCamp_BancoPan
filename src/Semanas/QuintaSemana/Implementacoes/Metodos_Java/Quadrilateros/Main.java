@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Quadrilateros;
+package Semanas.EqualsHashCode.Metodos_Java.Quadrilateros;
 
 public class Main {
     public static void main(String[] args) {

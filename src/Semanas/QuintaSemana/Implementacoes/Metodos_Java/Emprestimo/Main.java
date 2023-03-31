@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Emprestimo;
+package Semanas.EqualsHashCode.Metodos_Java.Emprestimo;
 
 public class Main {
 

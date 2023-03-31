@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Retornos;
+package Semanas.EqualsHashCode.Metodos_Java.Retornos;
 
 public class Main {
 

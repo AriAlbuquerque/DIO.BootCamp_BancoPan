@@ -1,6 +1,6 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Calculadora;
+package Semanas.EqualsHashCode.Metodos_Java.Calculadora;
 
-import QuintaSemana.Implementacoes.Metodos_Java.Calculadora.Calculadora;
+import Semanas.EqualsHashCode.Metodos_Java.Calculadora.Calculadora;
 
 public class Main {
     public static void main(String[] args) {

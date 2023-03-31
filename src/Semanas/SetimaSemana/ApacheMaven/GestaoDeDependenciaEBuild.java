@@ -1,7 +1,7 @@
 package Semanas.SetimaSemana.ApacheMaven;
 
 public class GestaoDeDependenciaEBuild {
-  /*
+  /**
   * **********Gestão de Dependências e Build em JAVA Maven**********
 
       * Apache Maven---> O Apache Maven é uma ferramenta de automação e gerenciamento de projetos Java, embora também possa ser utilizada com outras linguagens.

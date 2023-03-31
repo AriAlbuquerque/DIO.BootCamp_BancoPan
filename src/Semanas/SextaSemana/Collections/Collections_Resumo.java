@@ -2,7 +2,7 @@ package Semanas.SextaSemana.Collections;
 
 public class Collections_Resumo {
 
-    /*
+    /**
          *******  Collections_Resumo ******
          *
         É a interface absoluta na hierarquia de coleções. Dela descendem as interfaces Set, Queue (filas) e List (listas) que formam a base das coleções genéricas da linguagem Java.

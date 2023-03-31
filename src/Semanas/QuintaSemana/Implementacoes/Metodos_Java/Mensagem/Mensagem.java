@@ -1,4 +1,4 @@
-package QuintaSemana.Implementacoes.Metodos_Java.Mensagem;
+package Semanas.EqualsHashCode.Metodos_Java.Mensagem;
 /*A partir da hora do dia passar msg de \bom dia\boa tarde\boa noite;
 */
 public class Mensagem {

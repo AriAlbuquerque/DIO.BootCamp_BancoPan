@@ -1,7 +1,7 @@
 package Semanas.SetimaSemana.Exceptions;
 
  class DebuggingJava {
-    /*
+    /**
     *************Debugging Java*************
     * Erros de programação são denominados bugs;
     * O processo de encontrar e corrigir bugs é chamado de depuração ou debugging.

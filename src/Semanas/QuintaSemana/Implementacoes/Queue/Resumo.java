@@ -1,7 +1,7 @@
-package QuintaSemana.Implementacoes.Queue;
+package Semanas.QuintaSemana.Implementacoes.Queue;
 
 public class Resumo {
-    /*
+    /**
     *  *********Queue*************
     * As interfaces QUEUE são as filas das estruturas de dados em JAVA;
 
@@ -27,7 +27,7 @@ public class Resumo {
     *      .isEmpty(); (Mostra se a fila está vazia);
 
     **********************************************************************
-    * package QuintaSemana.Implementacoes.Queue;
+    * package Semanas.Implementacoes.Queue;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package QuartaSemana.EstruturaDeDados.Generics;
+package Semanas.QuartaSemana.EstruturaDeDados.Generics;
 
 public class Resumo_Generics {
     /**
