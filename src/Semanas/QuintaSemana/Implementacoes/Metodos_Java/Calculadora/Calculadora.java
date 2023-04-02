@@ -1,4 +1,4 @@
-package Semanas.EqualsHashCode.Metodos_Java.Calculadora;
+package Semanas.QuintaSemana.Implementacoes.Metodos_Java.Calculadora;
 /*
  * Criar aplicação que resolva as seguintes sutuações:
  * Calcular as quatro operaões básicas(SOMA, SUBTRAÇÃO, DIVISÃO E MULTIPLICAÇÃO)

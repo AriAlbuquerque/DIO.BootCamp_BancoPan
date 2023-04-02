@@ -1,0 +1,76 @@
+           ********** SQL **********
+
+    ********** Banco de dados Relacionais:
+    Os bancos de dados relacionais armazenam dados de acordo com esquemas específicos.
+    Por outro lado, os sistemas NoSQL permitem que os dados sejam armazenados usando qualquer estrutura necessária, mas fornece uma maneira de atualizar esses dados ao alterar essa estrutura.
+
+    A linguagem SQL (Structured Query Language) é usada para executar comandos em bancos de dados relacionais, que são os bancos baseados em tabelas.
+    Os termos ‘SQL’ e ‘NoSQL’ referem-se essencialmente a como esses esquemas são definidos. Em um banco de dados relacional, os usuários usam as instruções SELECT, INSERT e DELETE para adicionar ou atualizar dados.
+
+    Um banco de dados relacional é um formato de banco de dados rigidamente estruturado, baseado em tabelas, como – por exemplo- o MySQL ou o Oracle.
+    As aplicações modernas utilizam e geram tipos de dados complexos e em evolução. Os bancos de dados relacionais não foram projetados para lidar com esse tipo de armazenamento e recuperação de dados.
+    Os bancos de dados NoSQL são mais flexíveis e escaláveis.
+
+    Bancos de dados relacionais, como os do MySQL e PostgreSQL, armazenam dados usando um esquema explícito. Um esquema descreve como gravar dados no banco de dados, particularmente descrevendo a estrutura, tipos e estruturas de tabelas e registros.
+
+    Atomiicidade: Ou a execução é executada por completo ou retorna um error;
+    Consistência: Quando transação for concluida ela estará em conformidade com os schemas definidos;
+    Isolamento: Uma transação nunca irá interferir em outra transação;
+    Durabilidade: Uma vez que a transação for concluida nunca será perdida;
+
+
+     * SQL---> É uma linguagem declarativa, criada em 1970, de uso padrão para trabalhar com bancos de dados relacionais;
+     Mofificando dados e estruturas, adicionando, atualizando ou removendo linhas;
+     Recuperação de um subconjunto de informações de data base(DB);
+     SQL significa Structured Query Language(Linguagem de consulta estruturada), literalmente a linguagem padrão para realizar queries(consultas);
+
+    *Classificações:
+
+   - DDL -> Data Definition Language: Sub linguagem usada por DDAs(Administradores de banco de dados);
+    Administra e gerencia: USUÁRIO, ESQUEMA, STATEMENTS, INDEXING;
+
+   - DML: Data Manipulation Language: Subconjuto do SQL o mais utilizado, seus comandos: INSERT, DELETE, UPDATE;
+
+   - DCL: Data Control Language;
+   - DQL: Data Query Language;
+
+    * Os principais comandos SQL são:
+
+    SELECT: busca linhas em tabelas de acordo com um critério definido dentro da chamada cláusula de WHERE
+    INSERT: insere novas linhas na tabela. no nosso caso, colocaria novas notas fiscais dado os argumentos que são passados para o INSERT. Por exemplo, no nosso caso: INSERT INTO nf (titulo, pagamento, valor) VALUES 'canetas', '2019-07-15', 150.
+    UPDATE: atualiza linhas do banco de dados de acordo com um critério de WHERE, como mudar o CPF;
+    DELETE: remove linhas da tabela de acordo com um critério;
+
+   ********** MySQL **********
+
+    * MySQL é um sistema de gerenciamento de banco de dados (SGBD), que utiliza a linguagem SQL, Structured Query Language (Linguagem de Consulta Estruturada) como interface;
+
+
+    *PrimaryKey-->
+    *ForenKey-->
+    *Constraint-->
+    *Mapping-->
+    *Projeção de Atributos-->
+
+    *Operadores:
+
+
+ ********** PostgreSQL **********
+
+      PostgreSQL é o banco de dados mais padronizado do mundo e ele realmente pode ser chamado assim pois é o banco de dados considerado exemplo para a especificação ANSI-SQL, por ser extremamente aderente a esse padrão.
+      O projeto atual surgiu em 1995 e derivou de outro projeto (Ingres) que iniciou aproximadamente em 1976. Da base de código do Ingres, que deu origem ao PostgreSQL, também derivaram Sybase e Microsoft SQL Server.
+
+     Para quem é do mundo do PHP (WordPress, Magento, Drupal, etc.), o MySQL será bem mais familiar do que o PostgreSQL .
+     No entanto, este software de banco de dados relacional é a primeira escolha em comunidades como Ruby, Python, Go, etc. e como alternativa ao banco de dados Oracle.
+
+     O PostgreSQL é sempre a melhor escolha open source em relação a qualquer outro mecanismo de banco de dados relacional. O
+     PostgreSQL também tem uma vantagem caso o projeto precise de recursos NoSQL parciais para um modelo de dados híbrido.
+     Como o armazenamento de documentos e chave-valor são nativamente suportados, as necessidades do projeto podem ser atendidas com um único banco de dados.
+
+     PostgreSQL tem vários recursos interessantíssimos em comparação com outros bancos de dados relacionais (especificamente, MySQL), como:
+
+     Tipos de dados integrados para Array, Range, UUID, Geolocation, etc;
+     Suporte nativo para armazenamento de documentos (estilo JSON), XML e armazenamento de chave-valor (Hstore);
+     Replicação síncrona e assíncrona;
+     Mecanismo de geolocalização que facilita o trabalho com aplicativos baseados em localização;
+     Suporte para matrizes.

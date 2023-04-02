@@ -1,0 +1,71 @@
+
+**********Banco de dados não relacionais **********
+
+    As diferenças entre SQL e NoSQL é que no NoSQL a escalabilidade é horizontal e infinita;
+    O NoSql é free/schemaless, ou seja o DB permite armazenamento de qualquer dado, o Schema não é rígido como SQL;
+    Os bancos de dados NoSQL são documentados e permitem que você armazene e recupere dados em formatos diferentes das tabelas.
+    Plataformas Populares NoSQL incluem MongoDB, ElasticSearch e Redis.
+    As aplicações modernas utilizam e geram tipos de dados complexos e em evolução. Os bancos de dados relacionais não foram projetados para lidar com esse tipo de armazenamento e recuperação de dados.
+    Os bancos de dados NoSQL são mais flexíveis e escaláveis.
+
+        Em um Banco de Dados NoSQL, você pode adicionar novos dados sem ter que pré-definido no esquema do banco de dados, permitindo o processamento rápido de grandes volumes de dados não estruturados, semiestruturados e estruturados.
+
+    Basically Avaliable:
+    Soft-State:
+    Eventually Consistent:
+
+    ********** NoSQL **********
+
+  O NoSQL(Not Only SQL), A grande motivação para NoSQL é resolver o problema de escalabildade dos bancos tradicionais. Pode ser muito caro ou/e complexo escalar um banco SQL;
+
+  Esse movimento está bastante enraizado no open source. Dá para perceber isso até mesmo pelos curiosos nomes dos projetos: Voldemort, MongoDB, Tokyo Tyrant e CouchDB.
+
+  * Forma como o sistema escala:
+    Cada nó no cluster comunica com outros nós (p2p) e faz ativamente parte da partição/replicação. Não tem um single-point-of-failure;
+    Todos os novos bancos tem em comun que eles são key-value stores, ou seja salvam, como o nome sugere, um conjunto de enradas formadas por uma chave associada a um valor e o valor poderia ser de qualquer tipo, um binário ou string que está sendo salvo de forma denormalizada (schema-free).
+    Diferentemente dos bancos SQL não existe uma esquema forte;
+    Essa abordagem facilita a distribuição dos dados entre vários servidores onde cada servidor possui apenas uma fatia dos dados (shard).
+
+   * Existem 4 tipos de bancos de dados NoSQL definidos pela forma como armazenam os dados em suas estruturas, são eles:
+
+   - Documents--> Um dos tipos mais versáteis que temos no mundo NoSQL, possuindo um schema definido como flexível que permite que os registros e documentos possuam campos com diferentes tipos e em diferentes quantidades sem a existência de um schema fixo.
+    Tais documentos são definidos em formato JSON, utilizando conceitos próximos do modelo Orientado à Objetos onde o objeto aqui equivaleria a um documento.
+    Novos campos podem ser adicionados facilmente, permitindo uma rápida evolução da aplicação em desenvolvimento. Exemplos: MongoDB e CouchDB.
+
+   - Graphs-->O modelo baseado em estruturas de grafos pode não ser o mais intuitivo, pois os dados são definidos dentro dos nós e vértices,
+    mas permitem a resolução de um tipo específico de queries baseadas em relacionamento.
+    Exemplos: Neo4J e AWS Neptune.
+
+   - Key-Value pairs--> Bancos do tipo chave-valor são comumente utilizados para sistemas de cache e sessão.
+    Sua estrutura é definida como campos chave mapeados para um objeto muitas vezes não estrutural, em que as consultas somente podem ser realizas pelo campo chave.
+    Exemplos: Memcached, Redis e DynamoDB.
+
+   - Wide Column Store--> Bancos do tipo Wide Column Store utilizam matrizes multi-dimensionais para armazenamento dos dados.
+    São amplamente utilizadas para armazenar quantidades massivas de dados.
+    Os dados são consultados utilizando chaves para cada columna. Exemplo: HBase e Cassandra.
+    Este tipo de banco de dados é utilizado para solucionar problemas onde o modelo relacional não se adequa,
+    principalmente levando em consideração a quantidade massiva de dados que aplicações de redes sociais e serviços web recebem nos dias atuais.
+    Para essa necessidade não só o modelo de armazenamento precisa ser mais dinâmico em algumas situações em que os dados não são estruturados, mas também a capacidade de escalar fez com que o NoSQL fosse amplamente adotado.
+
+
+
+
+
+
+
+    ********** MongoDB **********
+
+    MongoDB
+    Ao contrário dos bancos de dados relacionais, o MongoDB é um “banco de dados de documentos”, que armazena dados em blocos, com dados relacionados agrupados no mesmo bloco.
+    Ao contrário de uma estrutura baseada em tabela, os detalhes de contato do usuário e os níveis de acesso residem no mesmo objeto.
+
+    O MongoDB tem alguns recursos impactantes que podem fazer o DBA desistir do uso dos bancos de dados relacionais em seu próximo projeto:
+
+    Esquema flexível para casos de uso imprevisíveis;
+    Fragmentação e agrupamento simples onde basta definir a configuração de um cluster e esquecê-la;
+    Adicionar ou remover um nó de um cluster é extremamente simples;
+    Otimizado para gravações muito rápidas, tornando-o altamente adequado para dados analíticos como um sistema de cache.
+
+
+    *Json--->
+    *Bson--->
