@@ -1,5 +1,5 @@
 
-**********Banco de dados não relacionais **********
+********** Banco de dados não relacionais **********
 
     As diferenças entre SQL e NoSQL é que no NoSQL a escalabilidade é horizontal e infinita;
     O NoSql é free/schemaless, ou seja o DB permite armazenamento de qualquer dado, o Schema não é rígido como SQL;
@@ -46,11 +46,6 @@
     Este tipo de banco de dados é utilizado para solucionar problemas onde o modelo relacional não se adequa,
     principalmente levando em consideração a quantidade massiva de dados que aplicações de redes sociais e serviços web recebem nos dias atuais.
     Para essa necessidade não só o modelo de armazenamento precisa ser mais dinâmico em algumas situações em que os dados não são estruturados, mas também a capacidade de escalar fez com que o NoSQL fosse amplamente adotado.
-
-
-
-
-
 
 
     ********** MongoDB **********
