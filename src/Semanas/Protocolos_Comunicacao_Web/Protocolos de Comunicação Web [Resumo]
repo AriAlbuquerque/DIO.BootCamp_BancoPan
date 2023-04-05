@@ -7,21 +7,20 @@
 
     * OSI: O Modelo OSI é uma sigla para Open System Interconnection, que significa Sistemas Abertos de Interconexão;
 
-    * HTTP: (HyperText Transfer Protocol) faz a comunicação entre cliente e servidor através do protocolo de comunicação;
-      > BLOQUEIA qualquer outra ação antes de retornar um método, arquivo etc...
+    ****  HTTP: (HyperText Transfer Protocol) faz a comunicação entre cliente e servidor através do protocolo de comunicação;
+      > BLOQUEIA  HEAD OF LINE BLOCKING qualquer outra ação antes de retornar um método, arquivo etc...
         -Browser-> Implementa o cliente, requisita recursos ao servidor;
         -Servidor-> É um host de objetos WEB, responde através do protocolo TCP/IP;
             *É uma arquitetura Client-Server;
             *Stateless não mantém o estado do cliente;
 
            * Possui duas conexões:
-                -Persistente :Conexões persistentes são conexões que não fecham quando a execução do seu script termina;
+                - Persistente :Conexões persistentes são conexões que não fecham quando a execução do seu script termina;
                   Quando uma conexão persistente é requisitada, o PHP verifica se já existe uma conexão persistente idêntica (que foi mantida aberta anteriormente);
                   Suporta 6 requests simultâneos;
                    Se ela existir, ele a usa;
                    Se ela não existir, ele cria a conexão;
-
-                -Não Persistente: São conexões que ao realizar a transferência de um objeto entre cliente e o servidor, esta conexão TCP é fechada;
+                - Não Persistente: São conexões que ao realizar a transferência de um objeto entre cliente e o servidor, esta conexão TCP é fechada;
                   Ou seja, ela não persiste, não continua funcionando para outros objetos da página web.
 
         - Request-> Chamadas (GET) de um recurso através de um método; Texto ecrito em ASCII;
@@ -31,37 +30,98 @@
                 *Connection: Tipo de conexão EX: close;
                 *User-agent: Navegador onde foi realizada a REQUEST  EX: Mozilla/5.0;
                 *Accept-language: Define a linguagem adota de acordo com a prefrência do cliente  EX: pt OU fr;
-        *Métodos HTTP REQUEST mais utilizados:
 
-              - GET: Busca objetos na web  EX: GET: /somedirectoy.htmlHTTP/1.1;
+        Métodos seguros HTTP: São chamados de métodos seguros SAFEMETHODS pois não acarretam modificações nos métodos, realizam apenas buscas;
+         - GET: Busca objetos na web  EX: GET: /somedirectoy.htmlHTTP/1.1;
+         - HEAD: Solicita o cabeçalho ao servidor sem corpo de resposta é um GET sem corpo;
+         - OPTION: Opções de comunicação com recurso;
+
+        *Métodos HTTP REQUEST mais utilizados:
+              - GET: Busca objetos na web;
+              - HEAD: Solicita o cabeçalho ao servidor sem corpo de resposta, é um GET sem corpo;
+              - OPTION: Opções de comunicação com recurso;
               - POST: Submete uma entidade a um recurso;
-              - HEAD: Solicita um recurso ao servidor;
               - PUT: Substituição de recurso pelos dados de requisição;
               - DELETE: Romove um recurso;
-              - TRACE: Faz um loop-back a um detrminado recurso;
-              - OPTION: Opções de comunicação com recurso;
-              - Connect: Tunelamento identificado pelo recurso;
+              - TRACE: Faz um loop-back a um detrminado recurso, traça caminho entre os entry post;
+              - Connect: Tunelamento identificado pelo recurso solicitado e servidor;
               - PATCH: Modificação parcial de um recurso;
 
+
         - Response-> Identifica o metódo solicitado(REQUEST) faz a busca no DB ee resnponde(POST) ao cliente;
+         * Response methods:
+            -200 OK: Request bem sucedida e objeto enviado;
+            -301 Moved Permanently: Objeto foi realocado com nova URL no campo LOCATIO;
+            -400 Bad Request: Resposta GENÉRICA, o servidor não entendeu a REQUEST ou o REQUEST é inexistente;
+            -505 HTTP Version Not Supported: Quando a versão do protocolo não é suportada pelo servidor;
 
-        - Cookies:
-        - Cache:
+         * Classificação dos Status Code:
+            - Information response (100-199);
+            - Successful response (200-299);
+            - Redirection response (300-399);
+            - Client Error response (400-499);
+            - Srver error response (500-599);
 
-    * XML: A Extensible Markup Language (XML) permite definir e armazenar dados de maneira compartilhável
-      A XML oferece suporte ao intercâmbio de informações entre sistemas de computador, como sites, bancos de dados e aplicações de terceiros;
-      O XML utiliza TAGs;
+         * Entity-header: Entity header: Cabeçalhos contendo mais informação sobre o corpo da entidade;
+         Como o tamanho do conteúdo ou o seu MIME-type;
+            -Entity> Request Method & Status Code;
+            -Campos> São as definições; Entity Header & Entity body;
 
-    * JSON: ativa ao XML para a transferência de dados estruturados entre um servidor de Web e uma aplicação Web.
-     Sua lógica de organização tem semelhanças com o XML, mas possui notação diferente;
-     É um formato leve de troca de informações/dados entre sistemas.
-     O JSON utiliza chave e valor;
+        - Cookies: Os cookies são blocos de dados criados peço servidor para persistir dados no dispositivo do cliente; Atualiza o DB do servidor com informações do cliente;
+                Eles facilitam a experiência do cliente on-line salvando dados de navegação.
+                -Cookies de sessão-> Os dados são apagados ao fim da conexão;
+                -Cookies persistentes-> Os dados ficam armazenados, como logins e senhas em páginas WEB;
+
+        - Cache: cache lembra partes de páginas, para ajudar a abri-las mais rapidamente na próxima visita do cliente.
+
+  ********** XML: A Extensible Markup Language (XML) permite definir e armazenar dados de maneira compartilhável
+
+    * A XML oferece suporte ao intercâmbio de informações entre sistemas de computador, como sites, bancos de dados e aplicações de terceiros;
+          O XML utiliza TAGs;
+
+        * JSON: ativa ao XML para a transferência de dados estruturados entre um servidor de Web e uma aplicação Web.
+         Sua lógica de organização tem semelhanças com o XML, mas possui notação diferente;
+         É um formato leve de troca de informações/dados entre sistemas.
+         O JSON utiliza chave e valor;
 
 
 
-    * HTTP 2.0 version:
+    * HTTP 2.0 version: O que o protocolo HTTP 2.0 implementa é um formato de entrega mais eficiente, acelerando o carregamento das páginas e elementos de uma aplicação web por não possuir o HEAD OF LINE BLOCKING;
+     Este é a principal vantagem que temos na utilização do HTTP/2
 
-    * HTTPS:
+    * Criptografia por chave: Na criptografia, uma chave é uma sequência de caracteres usada em um algoritmo de criptografia para alterar os dados de forma que pareçam aleatórios;
+      Como uma chave física, ele bloqueia (criptografa) os dados para que apenas alguém com a chave certa possa desbloqueá-los (descriptografá-los).
 
-    * Protocolo WEB Socket:
+        - Chave Simétrica-> A criptografia simétrica faz uso de uma única chave, que é compartilhada entre o emissor e o destinatário de um conteúdo;
+         Essa chave é uma cadeia própria de bits, que vai definir a forma como o algoritmo vai cifrar um conteúdo.
+
+        - Chave Assimétrica-> A criptografia assimétrica, por outro lado, utiliza DUAS chaves diferentes: uma chave pública para criptografar a mensagem e uma chave privada correspondente para descriptografá-la.
+
+    * HTTPS: O HTTPS (Hypertext Transfer Protocol Secure) é um protocolo de comunicação que permite a transmissão de dados através de um canal seguro;
+      Ele combina o protocolo HTTP com um protocolo de criptografia, geralmente o SSL/TLS, para criar um canal de comunicação seguro.
+
+    * Protocolo WEB Socket: O protocolo SSL (Secure Sockets Layer)  assegura que os dados transferidos entre um cliente e um servidor permaneçam privados;
+    Esse protocolo permite que o cliente autentique a identidade do servidor;
+
+    ****** Operações do SSL: Certificado SSL "Secure Sockets Layer"(camada de soquete seguro) é um certificado digital que autentica a identidade de um site e possibilita uma conexão criptografada;
+     Um protocolo de segurança que cria um link criptografado entre um servidor Web e um navegador Web.
+
+        - Handshake:
+     O handshake 3 vias SSL ou TLS permite que o cliente e o servidor SSL ou TLS estabeleça as chaves secretas com as quais eles se comunicam;
+      Esta seção fornece um resumo das etapas que permitem que o cliente e o servidor SSL ou TLS se comuniquem uns com os outros: Aceitar a versão do protocolo a ser usada;
+
+        -Data Transfer: O Data Transfer é um serviço de migração de dados offline que permite mover com segurança conjuntos de dados;
+         Em escala de petabytes do seu data center para o Object Storage ou Archive Storage na Oracle Cloud Infrastructure.
+
+     - LGPD: A Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018;
+      Foi promulgada para proteger os direitos fundamentais de liberdade e de privacidade e a livre formação da personalidade de cada indivíduo.
+
+    -  Protocolo WebSocket: WebSocket é uma tecnologia de handshake 2 via avançada para criar uma ligação entre um cliente e um servidor (browser e servidor)
+       Exucatando um código não confiável em ambiente controlado para o host que escolheu essa comunicação;
+       Permite a comunicação entre eles em tempo real;
+       A principal diferença com o WebSocket é que permite receber dados sem ter de enviar um pedido separado, como, por exemplo, acontece no HTTP;
+       Uma vez estabelecida a ligação, os dados virão por si mesmos sem necessidade de enviar o pedido;
+       É a vantagem de utilizar o protocolo WebSocket em chats ou relatórios de stock, onde precisa de receber informação constantemente actualizada;
+       O protocolo pode receber e enviar informação simultaneamente, permitindo uma comunicação bidireccional full-duplex, o que resulta numa troca de informação mais rápida;
+
 
