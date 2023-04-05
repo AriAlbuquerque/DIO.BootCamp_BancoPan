@@ -1,0 +1,52 @@
+
+********** DynamoDB **********
+
+ O Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado pela AWS;
+ Fornece um desempenho rápido e possível com escalabilidade integrada;
+ Por ser gerenciado trata de todos os provisionamentos, instalçaõ e configuração de HARDWARE, REPLICAÇÃO, CORREÇÃO DE SOFTWARE e ESCALABILIDADE DE CLUSTER;
+    -O DynamoDB é utilizado em sistemas de onde a prioridade é obter um grande volume de dados e com baixa latência;
+        Capacidade De Processamento: > 10 trilhões de solicitações/dia;
+                                     > 20 milhões de solicitações/segundo;
+                                     Disponibilidade de 99.9%;
+
+    * Características do Amazon DynamoDB: Para compreender algumas características é preciso "PENSAR FORA DA CAIXA":
+        -Não normalizado;
+        -Não existe uma entidade por tabela;
+        -Sem Joins para pesquisa de dados;
+        -Tabelas podem receber atributos de forma dinâmica;
+
+    * Componetes principais do DynamoDB:
+        > Tabelas: Semelhante a outros DB o DynamoDB armazena dados em tabelas(Coleção de Dados);
+        > Itens: Cada tabela contém 0 ou > itens(Grupo de atributos indentificável exclusivamente entre todos os outros itens);
+        > Atributos: Cada item é composto de 1 ou > atributos(Atributo é um elemento da dados fundamental, algo que não precisa ser dividido ainda nais):
+        > Primary key: Identifica exclusivamente cada item na tabela, de modo que não possa haver dois itens com a mesma chave primárias;
+           - Partition key: Chave primária simples com o valor da chave sendo a entrada para uma função de hash interna;
+           - Partition key + sort key: Chave primária composta por dois atributos; A tabela pode ter uma partition key não única, mas a cobinação das chaves deve ser ÚNICA;
+        > Índices secundários: permite consultar os dados na tabela usando uma chave alternativa, além de fazer consultas em relação á chave primária;
+
+    * O DynamoDB é compatível com dois tipos de índices:
+        > Índice secundário global: Possui uma chave de partição e uma chave de classificação que podem ser diferentes das contidas na tabela;
+        > Índice secundário local: Possui a mesma chave de partição da tabela, mas uma chave de classsificação diferente;
+
+    * Tipos de Dados:
+        > Tipos escalares: representa um valor exato, como número, boolean, string, null;
+        > Documentos: Representa uma estrutura complexa com atributos aninhados, como um JSON;
+        > Tipos de conjunto: representa um conjunto de valores escalares, como conjuntos de strings, números, binários;
+
+    * Modos de leitura e gravação: define o modo de cobrança por taxa de rendimento de leitura e gravação e como gerencia a capacidade--->
+        > Sob demanda: é uma de faturamento fexível capaz de servir centenas de solicitações por segundo sem plnejamento de capacidade e cobrando sob demanda;
+        > Provisionado: especifica o número de leituras e grvações por segundo exigidas pelo app; Permite manter abaixo de uma taxa de solicitações definidas para obter previsão de custos;
+
+
+    * Como modelar um DB no DynamoDB:
+        > Access patterns: padrões de acesso que basicamente definem como itens serão buscados dentro da tabela.
+            são eles que definem a modelagem do DB;
+        > Exemplos de access patterns em um e-commerce:
+            -Buscar perfil de um cliente;
+            -Buscar pedidos de um cliente;
+            -Buscar pedidos e seus itens;
+            -Buscar pedidos de um usuário pelo status;
+        > Regras de negócios bem definidas: O DynamoDb não é flexível a mudanças na MODELAGEM após a implementação;
+        > Dimensionamento: saber antecipar qual é o pico das cargas de consulta pode ajudar a detrminar como particionar os dados para melhor utilização da capacidade de E/S ();
+        > Mantenha o número de índices no mínimo: Não criar índices secundários para atributos pouco consultados e com menor tamanho possível;
+        > Design Eficiente: Compreender três propriedades fundamentais de padrões de acesso: TAMANHO DOS DADOS, FORMA DOS DADOS e VELOCIDADE DOS DADOS;

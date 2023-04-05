@@ -1,0 +1,67 @@
+
+
+    ********** Protocolos de Comunicação WEB:
+
+    * TCP/IP:TCP/IP é a abreviação de Transmission Control Protocol/Internet Protocol (protocolo de controle de transmissão/protocolo de internet)
+     E possibilita a conexão de dispositivos à internet e a comunicação entre eles em todas as redes;
+
+    * OSI: O Modelo OSI é uma sigla para Open System Interconnection, que significa Sistemas Abertos de Interconexão;
+
+    * HTTP: (HyperText Transfer Protocol) faz a comunicação entre cliente e servidor através do protocolo de comunicação;
+      > BLOQUEIA qualquer outra ação antes de retornar um método, arquivo etc...
+        -Browser-> Implementa o cliente, requisita recursos ao servidor;
+        -Servidor-> É um host de objetos WEB, responde através do protocolo TCP/IP;
+            *É uma arquitetura Client-Server;
+            *Stateless não mantém o estado do cliente;
+
+           * Possui duas conexões:
+                -Persistente :Conexões persistentes são conexões que não fecham quando a execução do seu script termina;
+                  Quando uma conexão persistente é requisitada, o PHP verifica se já existe uma conexão persistente idêntica (que foi mantida aberta anteriormente);
+                  Suporta 6 requests simultâneos;
+                   Se ela existir, ele a usa;
+                   Se ela não existir, ele cria a conexão;
+
+                -Não Persistente: São conexões que ao realizar a transferência de um objeto entre cliente e o servidor, esta conexão TCP é fechada;
+                  Ou seja, ela não persiste, não continua funcionando para outros objetos da página web.
+
+        - Request-> Chamadas (GET) de um recurso através de um método; Texto ecrito em ASCII;
+              Estrutura:
+                *Método HTTP: GET: /somedirectoy.htmlHTTP/1.1;
+                *Host: URL do diretório;
+                *Connection: Tipo de conexão EX: close;
+                *User-agent: Navegador onde foi realizada a REQUEST  EX: Mozilla/5.0;
+                *Accept-language: Define a linguagem adota de acordo com a prefrência do cliente  EX: pt OU fr;
+        *Métodos HTTP REQUEST mais utilizados:
+
+              - GET: Busca objetos na web  EX: GET: /somedirectoy.htmlHTTP/1.1;
+              - POST: Submete uma entidade a um recurso;
+              - HEAD: Solicita um recurso ao servidor;
+              - PUT: Substituição de recurso pelos dados de requisição;
+              - DELETE: Romove um recurso;
+              - TRACE: Faz um loop-back a um detrminado recurso;
+              - OPTION: Opções de comunicação com recurso;
+              - Connect: Tunelamento identificado pelo recurso;
+              - PATCH: Modificação parcial de um recurso;
+
+        - Response-> Identifica o metódo solicitado(REQUEST) faz a busca no DB ee resnponde(POST) ao cliente;
+
+        - Cookies:
+        - Cache:
+
+    * XML: A Extensible Markup Language (XML) permite definir e armazenar dados de maneira compartilhável
+      A XML oferece suporte ao intercâmbio de informações entre sistemas de computador, como sites, bancos de dados e aplicações de terceiros;
+      O XML utiliza TAGs;
+
+    * JSON: ativa ao XML para a transferência de dados estruturados entre um servidor de Web e uma aplicação Web.
+     Sua lógica de organização tem semelhanças com o XML, mas possui notação diferente;
+     É um formato leve de troca de informações/dados entre sistemas.
+     O JSON utiliza chave e valor;
+
+
+
+    * HTTP 2.0 version:
+
+    * HTTPS:
+
+    * Protocolo WEB Socket:
+
