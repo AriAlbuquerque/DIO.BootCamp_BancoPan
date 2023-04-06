@@ -1,0 +1,72 @@
+
+     ********** Spring Framework:
+
+    * Spring: O Spring surgiu com o intuito de tornar a programação Java mais rápida, fácil e segura, otimizando o trabalho de desenvolvimento;
+                -Fundamentos--> Plataforma open sorce para plataforma JAVA baseado nos padrões de projetos, iversão de controles e injeção de dependência;
+                No entanto, quando falamos em "Spring", provavelmente estamos falando de  seu aco sistema completo;
+                É estruturado por módulos afim de reduzir a complexidade no desenvolvimento de app simples ou corporativas;
+                        Core Container--> consiste de um dos módulos do Spring Framework que cuida das injeções de dependências e inversão de controle em um determinado projeto java.
+                        Data Access/Integration-->
+                        Spring Web MVC: Que fornece ferramental para atender requisições e prover respostas através de Servlets; É a forma mais comum de fazer web, já o segundo envolve conceitos de requisições não-bloqueantes;
+                        Spring WebFlux: A forma de fazer aplicações web reativas (non-blocking) com Java e Spring.
+
+
+     Framework: Ferramenta utilizada na programação, com foco no desenvolvimento do projeto e não nos processos de configuração e padronização;
+       Dentre os Frameworks do mercado estão o Angular, Lavarel, Scrum, entre outros, porém o mais utilizado no mercado é o Spring;
+
+
+       * Spring vs Java EE: O Java EE perdeu popilaridade devido a menor burocracia e maior agilidade do Spring;
+       Java EE 5 version>
+
+
+       * IoC (Inversion of Control): Trata-se do redirecionamento do fluxo de execução de um código retirando parcialmente o controle sobre ele e delegando-o para um CONTAINER;
+       Seu principal propósito é minimizar o acoplamento de código;
+
+       *Container:
+
+       * Injeção de Dependências: Padrão de desenvolvimento com a finalidade de manter baixo o nível de acoplamento entre módulos de um sistema;
+
+       * Beans: Objeto que é instaciado(criado), montado e gerenciado por um CONTAINER através de inversão de controle;
+
+       * Scopes: O Scope é um conjunto de regras que temos sobre como os identificadores (variáveis, funções) podem ser guardados e acessados;
+        Quando o objeto é definido como @ApplicationScoped, este objeto é criado apenas uma única vez durante toda a sessão;
+        Assim sendo, application scope permite que os dados sejam compartilhados com os usuários em diversas sessões abertas de uma mesma aplicação.
+
+       * Singleton: O Container do Spring IoC define apenas uma instância do objeto para toda a aplicação;
+
+       * Prototype: Será criado um novo objeto a cada solicitação ao Container; Para não inferir mudança de estrutura desses objetos;
+       * HTTP: Um BEAN será criado para cada requisição HTTP; Os objetos existirão enquanto a requisição estiver em execução;
+                        - HTTP-Session: Um BEAN será criado para a sessão de usuário, mantém o estado do usuário;
+                        - HTTP-Global: Ou aplicação SCOPE cria um bean parao ciclo de vida no contexto da aplicação; O been persiste durante o ciclo de vida da aplicação, após ele é excluido;
+                         Os objetos são compartilhados por toda a aplicação;
+
+       * Autowired: Uma anotação(indicação) onde deverá ocorrer uma injeção automática de dependência; Momento de delegação;
+                        - byName: Busca de um método SET que corresponde ao NOME do BEAN;
+                        - byType: O tipo da Classe é considerada para INCLUSÃO  no BEAN;
+                        - byConstrutor: É utilizado para incluir a dependência;
+
+       * Scopes: Escops são o que determinam quais são os dados que podem ser acessados em uma determinada parte do código é o escopo;
+        Quando criamos outra função dentro da função foo, estamos colocando outra caixa dentro do escopo da função, criando o que é chamado de “nested scopes”, ou escopos aninhados
+
+
+       * Spring Data JPA: O Spring Data JPA é uma framework que faz parte do conjunto de projetos do Spring Data que tem como finalidade tornar a integração de aplicações Spring com a JPA (Java Persistence API);
+        Uma de suas principais vantagens é a capacidade que o mesmo possui para criar a camada de acesso aos dados sem a necessidade de termos que implementar manualmente as classes de DAO (Data Access Object);
+
+     ********** SpringBoot:
+
+          * É uma ferramenta que nasceu a partir do Spring, um framework desenvolvido para a plataforma Java;
+      Baseado nos padrões de projetos, inversão de controle e injeção de dependência, ele inicia um projeto com todas as configurações necessárias para o tipo de bussiness da Aplicação, acelerando o processo de "codar";
+      Essa ferramenta oferece uma série de vantagens, como auxílio nas configurações iniciais necessárias para que os dev possam começar a codificar, contribui para projetos mais ágeis e organizados.
+      Enquanto o Sring Framework é baseado no padrão de injeção de dependências, o SPRINGBOOT foca na configuração automática;
+
+           * Starters: Descritores de dependências; Coeso, versões compatíveis, otimização do tempo; configuração simples; foco no NEGÓCIO;
+                           - data-jpa: Integração ao banco de dados via JPA-Hibernate;
+                           - data-mongodb: Interação com DB MongoDB;
+                           - web: Inclusão do contaniner Tomcat oara aplicações REST;
+                           - web-services: Webservices baseados na arquitetura SOAP;
+                           - batch: Implementação de JOBs de processos;
+                           - test: Disponibilização de recursos para testes unitários com JUnit;
+                           - openfeign: Cliente HTTP baseado em Interfaces;
+                           - actuator: Gerenciamento de monitoramento da aplicação;
+
+
