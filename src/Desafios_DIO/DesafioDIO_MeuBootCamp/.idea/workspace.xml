@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1facea3c-cca7-4065-bc0d-4832110c34d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProgramacaoOrientadaObjeto/ResumoPOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProgramacaoOrientadaObjeto/ResumoPOO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/PrimeiraSemana/Metodos/ResumoMetodosEVariaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/PrimeiraSemana/Metodos/ResumoMetodosEVariaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Arvores/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Arvores/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/EncadeamentoDeNó/EstruturaDeDados_Resumo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/EncadeamentoDeNó/EstruturaDeDados_Resumo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Filas/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Filas/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Generics/Resumo_Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/Generics/Resumo_Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListaDuplamenteEncadeada/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListaDuplamenteEncadeada/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListasCirculares/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListasCirculares/ListaCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListasEncadeadas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ListasEncadeadas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ResumoEstruturaDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuartaSemana/EstruturaDeDados/ResumoEstruturaDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/List/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/List/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/List/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/List/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/List/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/EqualsHashCode/List/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Calculadora/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Calculadora/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Calculadora/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Emprestimo/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Emprestimo/Emprestimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Emprestimo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Emprestimo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Mensagem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Mensagem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Mensagem/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Mensagem/Mensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Quadrilateros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Quadrilateros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Quadrilateros/Quadrilateros.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Quadrilateros/Quadrilateros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Retornos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Retornos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Retornos/Quadrilateros2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Metodos_Java/Retornos/Quadrilateros2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Queue/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Set/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/Stack_Pilha/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/equalsHashCode/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/equalsHashCode/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/equalsHashCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/equalsHashCode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/QuintaSemana/Implementacoes/equalsHashCode/Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/EqualsHashCode/equalsHashCode/Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/SetimaSemana/ApacheMaven/GestaoDeDependenciaEBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/SetimaSemana/ApacheMaven/GestaoDeDependenciaEBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/SetimaSemana/Exceptions/DebuggingJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/SetimaSemana/Exceptions/DebuggingJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/SetimaSemana/TestesUnitarios_JUnit/JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/SetimaSemana/TestesUnitarios_JUnit/JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/SextaSemana/Collections/Collections_Resumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/SextaSemana/Collections/Collections_Resumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/TerceiraSemana/EstruturasDeRepeticao/Arrays/ResumoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/TerceiraSemana/EstruturasDeRepeticao/Arrays/ResumoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Semanas/TerceiraSemana/EstruturasDeRepeticao/EstruturasDeRepetição/Resumo_EstruturaRepeticao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Semanas/TerceiraSemana/EstruturasDeRepeticao/EstruturasDeRepetição/Resumo_EstruturaRepeticao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src-backend/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src-backend/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src-backend/src/main/java/org/example/GreetingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src-backend/src/main/java/org/example/GreetingHandler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NchVIOprkjRO8DE6lrYDW4P7Q5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/arian/@WorkSpace/DesafioDIO_MeuBootCamp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1facea3c-cca7-4065-bc0d-4832110c34d4" name="Changes" comment="" />
+      <created>1679969310530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679969310530</updated>
+    </task>
+    <servers />
+  </component>
+</project>
